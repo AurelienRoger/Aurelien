@@ -1,11 +1,17 @@
 :root{
-    --color-h2:#191F43;
-    --color-border:#082642;
+    --color-h2:white;
+    --color-background:#c8dfcb;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 body{
     margin: 0;
+    background-color: var(--color-background);
+    width: auto;
 }
 
 #separate-grid{
@@ -15,4 +21,35 @@ grid-template-columns: 1fr;
 
 h2{
     text-align: center;
+    color: var(--color-h2);
 }
+
+ul{
+    list-style: circle;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) {
+  
+   #separate-grid{
+    grid-template-columns: 1fr 1fr;
+   }
+    
+  }
+
+  /* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px){
+  
+    #separate-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+  }
