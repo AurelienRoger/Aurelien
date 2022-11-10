@@ -1,0 +1,18 @@
+:root{
+    --color-h2:#191F43;
+    --color-border:#082642;
+}
+
+
+body{
+    margin: 0;
+}
+
+#separate-grid{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+h2{
+    text-align: center;
+}
