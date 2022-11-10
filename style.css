@@ -12,18 +12,15 @@ header nav {
     display: none;
 }
 
-header{
-    position: relative;
+#flex-nav{
+    display: flex;
+    justify-content: center;
 }
 
-header img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 1.5em;
-    height: 1.5em;
-    box-shadow: 1px 1px 3px white;
+#flex-nav li{
+    margin: 1em 1em;
 }
+
 
 
 body{
@@ -46,16 +43,21 @@ h1{
 h2{
     text-align: center;
     color: var(--color-h2);
+    border-bottom: 1px solid white;
+    margin: 0 2em;
+    padding-bottom: 1em;
 }
 
 ul{
     list-style: none;
     text-shadow: 1px 1px 3px white;
     text-align: center;
+    padding-left: 0;
 }
 
 p{
     text-shadow: 1px 1px 3px white;
+    text-align: center;
 }
 
 
@@ -70,17 +72,10 @@ p{
    #separate-grid{
     grid-template-columns: 1fr 1fr;
    }
-   header nav {
-    display: block;
-}
 
-header{
-    position: relative;
-}
-
-header img{
+   header nav{ 
     display: none;
-}
+   }
 
     
   }
