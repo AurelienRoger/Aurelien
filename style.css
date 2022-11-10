@@ -5,6 +5,24 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px black;
+}
+
+header nav {
+    display: none;
+}
+
+header{
+    position: relative;
+}
+
+header img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.5em;
+    height: 1.5em;
+    box-shadow: 1px 1px 3px white;
 }
 
 
@@ -19,14 +37,28 @@ display: grid;
 grid-template-columns: 1fr;
 }
 
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: var(--color-h2);
+}
+
 h2{
     text-align: center;
     color: var(--color-h2);
 }
 
 ul{
-    list-style: circle;
+    list-style: none;
+    text-shadow: 1px 1px 3px white;
+    text-align: center;
 }
+
+p{
+    text-shadow: 1px 1px 3px white;
+}
+
+
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -38,6 +70,18 @@ ul{
    #separate-grid{
     grid-template-columns: 1fr 1fr;
    }
+   header nav {
+    display: block;
+}
+
+header{
+    position: relative;
+}
+
+header img{
+    display: none;
+}
+
     
   }
 
