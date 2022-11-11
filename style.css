@@ -26,16 +26,15 @@ header{
     grid-template-columns: repeat(12, 1fr);
 }
 
-header h3{
+h3{
+    font-size: 1.3em;
     font-weight: bold;
 }
 
 .welcome-message{
-    text-align: center;
     align-self: end;
     margin-bottom: 0.3em;
-    font-size: 1.3em;
-    font-weight: bold;
+    text-align: center;
 }
 
 .i-am{
@@ -61,4 +60,19 @@ header h3{
 
 .little-texte{
     font-style: italic;
+}
+
+/* Section Un */
+
+section{
+    height: 100vh;
+}
+
+.first-section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.my-project{
+    text-align: center;
 }
