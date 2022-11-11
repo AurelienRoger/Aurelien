@@ -400,6 +400,7 @@
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
+    grid-column: span 6;
   }
   .col-sm-7 {
     flex: 0 0 auto;

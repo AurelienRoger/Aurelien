@@ -1,6 +1,8 @@
 :root{
     --color-background:black;
     --color-text-un:#649F81;
+    --success: #00b894;
+    --progress: #e17055;
 }
 
 html{
@@ -29,8 +31,11 @@ header{
 h3{
     font-size: 1.3em;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
+
+/*H3 section head */
 .welcome-message{
     align-self: end;
     margin-bottom: 0.3em;
@@ -42,6 +47,7 @@ h3{
     font-weight: lighter;
     font-style: italic;
 }
+
 
 .name{
     justify-content: center;
@@ -73,14 +79,37 @@ section{
     grid-template-columns: repeat(12, 1fr);
 }
 
+/* H3 section mes projets */
 .my-project{
     text-align: center;
     align-self: center;
 }
 
-/*Slide*/
+/* barre de progression */
 
-.d-block{
-    align-self: center;
+.barre{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 15%;
+    width: 75%;
+    text-align: center;
+    justify-self: center;
+
 }
+
+/*2eme section */
+
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+/* H3 section mes competences */
+
+.my-skill{
+    text-align: center;
+}
+
+/* Barre de progression */
+
 
