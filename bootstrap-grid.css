@@ -341,7 +341,7 @@
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 0px) {
   .col-sm {
     flex: 1 0 0%;
   }
@@ -424,6 +424,7 @@
   .col-sm-12 {
     flex: 0 0 auto;
     width: 100%;
+    grid-column: span 12;
   }
   .offset-sm-0 {
     margin-left: 0;

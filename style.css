@@ -79,3 +79,7 @@ section{
 
 /*Slide*/
 
+.d-block{
+    justify-self: center;
+}
+
