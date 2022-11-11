@@ -81,6 +81,6 @@ section{
 /*Slide*/
 
 .d-block{
-    justify-self: center;
+    align-self: center;
 }
 
