@@ -52,10 +52,15 @@ h3{
     text-align: center;
 }
 
-#my-name{
-    font-size: 4em;
+.my-name{
     font-weight: bold;
-}
+    font-size: 4em;
+  }
+
+/* */
+
+/* */
+
 
 .reconversion{
     font-style: italic;
@@ -124,23 +129,7 @@ h4.liste-competences{
     margin-bottom: 10%;
 }
 
-.col-start-6{
-    grid-column-start: 8;
-    grid-row-start: 1;
-    grid-column: span 6;
-}
 
-.col-start-6-line-2{
-    grid-column-start: 8;
-    grid-row-start: 2;
-    grid-column: span 6;
-}
-
-.ul-list-comp li{
-
-    text-align: center;
-    margin-bottom: 10%;
-}
 
 /* */
 progress[value]::-webkit-progress-value {
@@ -172,6 +161,24 @@ progress[value]::-webkit-progress-value {
 
 .my-skill{
     text-align: center;
+}
+
+.col-start-6{
+    grid-column-start: 8;
+    grid-row-start: 1;
+    grid-column: span 6;
+}
+
+.col-start-6-line-2{
+    grid-column-start: 8;
+    grid-row-start: 2;
+    grid-column: span 6;
+}
+
+.ul-list-comp li{
+
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 
@@ -213,6 +220,3 @@ progress[value]::-webkit-progress-value {
 .nombre-projets, .nombre-commit, .nombre-cafe{
     font-size: 2em;
 }
-
-
-
