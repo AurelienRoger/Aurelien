@@ -1,8 +1,6 @@
 :root{
     --color-background:black;
     --color-text-un:#649F81;
-    --success: #00b894;
-    --progress: #e17055;
 }
 
 html{
@@ -85,17 +83,6 @@ section{
     align-self: center;
 }
 
-/* barre de progression */
-
-.barre{
-    border: 1px solid black;
-    border-radius: 15px;
-    height: 15%;
-    width: 75%;
-    text-align: center;
-    justify-self: center;
-
-}
 
 /*2eme section */
 
@@ -104,12 +91,59 @@ section{
     grid-template-columns: repeat(12, 1fr);
 }
 
+/* Barre de progression */
+.progress-barre{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.liste-competences{
+    justify-self: center;
+    text-align: center;
+    align-self: start;
+
+}
+
+h3.liste-competences{
+    border-bottom: 1px solid black;
+}
+
+.barre-progression{
+    align-self: start;
+    background-color: var(--color-text-un);
+}
+
+/* */
+progress[value]::-webkit-progress-value {
+    background-image:
+         -webkit-linear-gradient(-45deg, 
+                                 transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                                 rgba(0,0, 0, .1) 66%, transparent 66%),
+         -webkit-linear-gradient(top, 
+                                 rgba(255, 255, 255, .25), 
+                                 rgba(0, 0, 0, .25)),
+         -webkit-linear-gradient(left, #09c, #f44);
+  
+      border-radius: 2px; 
+      background-size: 35px 20px, 100% 100%, 100% 100%;
+  }
+
+
+  /* */
+
+.file{
+    width: 75%;
+    justify-self: center;
+    
+}
+
+
+
 /* H3 section mes competences */
 
 .my-skill{
     text-align: center;
 }
 
-/* Barre de progression */
 
 
