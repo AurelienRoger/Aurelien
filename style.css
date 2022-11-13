@@ -89,6 +89,44 @@ section{
 }
 
 
+/*Rajout*/
+
+
+
+.grid-section-un{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 100vh;
+}
+
+.grid-section-un h3{
+    border-bottom: 1px solid black;
+    width: 75%;
+}
+/*Liste dans section un*/
+
+.grid-section-un ul{
+    list-style: none;
+    padding: 0;
+}
+
+.ligne-un{
+    align-self: center;
+    text-align: center;
+}
+
+.ligne-deux{
+ align-self: center;
+ text-align: center;
+}
+
+.ligne-un h3, .ligne-deux h3{
+    text-align: start;
+}
+
+/* */
+
+
 /*2eme section */
 
 .second-section{
@@ -96,42 +134,10 @@ section{
     grid-template-columns: repeat(12, 1fr);
 }
 
-/* Barre de progression */
-.progress-barre{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+.progression{
+    background-color: #649F81;
 }
 
-.liste-competences{
-    justify-self: center;
-    text-align: center;
-    align-self: start;
-
-}
-
-h3.liste-competences{
-    border-bottom: 1px solid black;
-}
-
-h4.liste-competences{
-    margin: 0;
-}
-
-.barre-progression{
-    align-self: start;
-    background-color: var(--color-text-un);
-}
-
-.ul-list-comp{
-    justify-self: center;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 10%;
-}
-
-
-
-/* */
 progress[value]::-webkit-progress-value {
     background-image:
          -webkit-linear-gradient(-45deg, 
