@@ -27,4 +27,6 @@ setInterval(function(){
 }, 6000);
 
 
-
+setInterval(function(){
+        projets.compteurProjet();
+}, 50)
