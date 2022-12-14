@@ -21,10 +21,7 @@ header{
     color: var(--color-text-un);
 }
 
-.infos{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-}
+
 
 h3{
     font-size: 1.3em;
@@ -35,7 +32,6 @@ h3{
 
 /*H3 section head */
 .welcome-message{
-    align-self: end;
     margin-bottom: 0.3em;
     text-align: center;
 }
@@ -48,7 +44,6 @@ h3{
 
 
 .name{
-    justify-content: center;
     text-align: center;
 }
 
