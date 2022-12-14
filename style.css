@@ -75,7 +75,14 @@ section{
 /* H3 section un */
 .section-un--h3{
     border-bottom: 1px solid var(--color-text-un);
+    box-shadow: 1px 1px 1px var(--color-text-un);
 }
+
+.section-un li{
+    font-weight: bold;
+    list-style: none;
+}
+
 
 .my-project{
     text-align: center;
