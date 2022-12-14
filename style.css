@@ -72,25 +72,17 @@ section{
     height: 100vh;
 }
 
-.first-section{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+/* H3 section un */
+.section-un--h3{
+    border-bottom: 1px solid var(--color-text-un);
 }
 
-/* H3 section mes projets */
 .my-project{
     text-align: center;
     align-self: center;
 }
 
-
-/*Rajout*/
-
-
-
 .grid-section-un{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
     height: 100vh;
 }
 
