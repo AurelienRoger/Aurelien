@@ -24,13 +24,13 @@ const projets = {
         projets.classCommit.textContent = projets.minValueCommit;
         projets.classCafe.textContent = projets.minValueCafe;
 
-        if (projets.minValueProjet < projets.maxValueProjet && projets.y > 640){
+        if (projets.minValueProjet < projets.maxValueProjet && projets.y > 1500){
         projets.minValueProjet++;
         }
-        else if (projets.minValueCommit < projets.maxValueCommit){
+        else if (projets.minValueCommit < projets.maxValueCommit && projets.y > 1500){
             projets.minValueCommit++;
         }
-        else if (projets.minValueCafe < projets.maxValueCafe){
+        else if (projets.minValueCafe < projets.maxValueCafe && projets.y > 1500){
             projets.minValueCafe++;
         }
 
@@ -41,6 +41,7 @@ const projets = {
         
         setInterval(function(){
             projets.y = window.scrollY;
+            console.log(projets.y);
     }, 10); 
 
         setInterval(function(){
