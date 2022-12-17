@@ -25,6 +25,16 @@ header{
     color: var(--color-text-un);
 }
 
+#dl-cv{
+    background-color: var(--color-text-un);
+    font-weight: bold;
+}
+
+#dl-cv:hover{
+    color: black;
+    width: 10em;
+}
+
 
 
 h3{
@@ -223,4 +233,8 @@ progress[value]::-webkit-progress-value {
 
 .nombre-projets, .nombre-commit, .nombre-cafe{
     font-size: 2em;
+}
+
+footer{
+    background-color: black;
 }
