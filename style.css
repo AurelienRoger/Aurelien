@@ -1,7 +1,12 @@
 body{
     background-color: #E7EAEB;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .background-grey{
     background-color: #E7EAEB;
+}
+
+.bold-text{
+    font-weight: bold;
 }
