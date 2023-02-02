@@ -10,3 +10,7 @@ body{
 .bold-text{
     font-weight: bold;
 }
+
+.green-font{
+    color: #639F80;
+}
