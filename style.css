@@ -14,3 +14,12 @@ body{
 .green-font{
     color: #639F80;
 }
+
+.b-style{
+    color: black;
+    font-weight: bold;
+}
+
+.bord-div{
+    border: 1px solid #639F80
+}
