@@ -32,3 +32,9 @@ body{
     background-color: #639F80;
     color: white;
 }
+
+.link-cv{
+    text-decoration: none;
+    color: #639F80;
+    border: solid 1px #639F80;
+}
