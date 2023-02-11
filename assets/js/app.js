@@ -32,7 +32,6 @@ async function addViewCv() {
 async function addViewPage() {
     let req = await fetch(`${url}/count/1`);
     const tasks = await req.json();
-    console.log(tasks)
 
     let vue = tasks.vue + 1
     let cv = tasks.cv
