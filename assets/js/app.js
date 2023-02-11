@@ -1,4 +1,4 @@
-const url = 'http://localhost:8000/api';
+const url = 'https://aurelien-roger.fr/api';
 console.log('App: Init')
 addViewPage()
 
